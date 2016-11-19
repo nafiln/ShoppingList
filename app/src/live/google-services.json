@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "992381712585",
+    "firebase_url": "https://shopping-8b2ba.firebaseio.com",
+    "project_id": "shopping-8b2ba",
+    "storage_bucket": "shopping-8b2ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992381712585:android:dce5f6dfcb4b36e6",
+        "android_client_info": {
+          "package_name": "com.example.nafil.shopping.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992381712585-7i2lo6urg4hquj701ia320h1mmluhs00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nafil.shopping.live",
+            "certificate_hash": "AB111069D0B53E199FAA69832A46CE4653E8B141"
+          }
+        },
+        {
+          "client_id": "992381712585-tkil4l48qa0htmq98j637vlg0rt0cl26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlr608C1Qkql03xNkB-gNStCHX9acL5xk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992381712585-tkil4l48qa0htmq98j637vlg0rt0cl26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

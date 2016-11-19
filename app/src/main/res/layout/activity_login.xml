@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:id="@+id/activity_login_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lt"
+        />
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColor="#FFF"
+        android:ems="10"
+        android:id="@+id/activity_login_userEmail"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@mipmap/ic_email_ground"
+        android:drawableStart="@mipmap/ic_email_ground"/>
+
+    <EditText
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/activity_login_userPassword"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@mipmap/ic_lock_ground"
+        android:drawableStart="@mipmap/ic_lock_ground"/>
+
+    <Button
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/activity_login_login_btn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:id="@+id/activity_login_signUp_btn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>
